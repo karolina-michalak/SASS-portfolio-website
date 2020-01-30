@@ -13,7 +13,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #df7e10; }
+  background-color: #dfaf10; }
 
 .btn-light {
   color: #333;
@@ -26,7 +26,7 @@
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background: #df7e10; }
+  background: #dfaf10; }
 
 .lead {
   font-size: 1.3rem;
@@ -70,7 +70,7 @@ input[class^='btn-']:hover {
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background: #df7e10;
+  background: #dfaf10;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -120,7 +120,7 @@ img {
     #main-nav a:hover {
       border-color: #ccc; }
     #main-nav a.current {
-      border-color: #df7e10; }
+      border-color: #dfaf10; }
 
 #header-home {
   background: url("../img/photo1.jpeg") no-repeat center right/cover;
@@ -139,7 +139,7 @@ img {
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr); }
   #home-a .specials .fas {
-    color: #df7e10;
+    color: #dfaf10;
     padding-bottom: 0.4rem; }
 
 #home-b .stats {
@@ -169,7 +169,8 @@ img {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #df7e10;
+    background: #dfaf10;
+    color: #fff;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -179,7 +180,7 @@ img {
   #home-c .process-icon {
     border-radius: 50%;
     background: #333;
-    color: white;
+    color: #fff;
     padding: 2rem;
     width: 70px;
     height: 70px;
@@ -188,7 +189,7 @@ img {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #df7e10;
+      background: #dfaf10;
       width: 90px;
       height: 90px;
       line-height: 90px; }
@@ -214,4 +215,4 @@ img {
       text-align: center;
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
-        background: #df7e10; }
+        background: #dfaf10; }
