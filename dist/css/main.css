@@ -28,6 +28,22 @@ a[class^='btn-']:hover,
 input[class^='btn-']:hover {
   background: #dfaf10; }
 
+.bg-main {
+  background: #dfaf10;
+  color: #fff; }
+
+.bg-dark {
+  background: #333;
+  color: #fff; }
+
+.bg-light {
+  background: #f4f4f4;
+  color: #000; }
+
+.bg-medium {
+  background: #ccc;
+  color: #000; }
+
 .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem; }
@@ -133,6 +149,11 @@ img {
       font-size: 4rem;
       line-height: 1.2; }
 
+#header-inner {
+  background: url("../img/photo1.jpeg") no-repeat 20% 30%/cover;
+  height: 5.5rem;
+  border-bottom: 3px solid #dfaf10; }
+
 #home-a .specials {
   margin-top: 3rem;
   display: grid;
@@ -194,7 +215,8 @@ img {
       height: 90px;
       line-height: 90px; }
       #home-c .process-icon:hover .process-step {
-        background: #333; }
+        background: #333;
+        color: #fff; }
 
 #main-footer {
   background: #333;
