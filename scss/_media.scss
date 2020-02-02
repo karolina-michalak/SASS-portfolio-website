@@ -79,6 +79,19 @@
         }
     }
 
+    #contact {
+        &-a {
+            .text-fields {
+                grid-template-areas:
+                    'name'
+                    'subject'
+                    'email'
+                    'phone'
+                    'message';
+            }
+        }
+    }
+
     #main-footer {
         height: 7rem;
 
