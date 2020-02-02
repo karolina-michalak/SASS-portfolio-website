@@ -424,6 +424,15 @@ img {
       padding: 1rem; }
   #header-home {
     height: 10rem;
-    border-bottom: 3px solid #ec9512; }
+    border-bottom: 3px solid #ec9512;
+    background-position: 20% 30%; }
     #header-home .header-content {
-      display: none; } }
+      display: none; }
+  #header-inner {
+    height: 10rem; }
+  #home-a .specials,
+  #home-b .stats,
+  #home-c .process,
+  #about-d .testimonials,
+  .items {
+    grid-template-columns: 1fr; } }
