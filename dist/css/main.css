@@ -421,4 +421,9 @@ img {
     flex-direction: column;
     align-items: center; }
     #main-nav li {
-      padding: 1rem; } }
+      padding: 1rem; }
+  #header-home {
+    height: 10rem;
+    border-bottom: 3px solid #ec9512; }
+    #header-home .header-content {
+      display: none; } }

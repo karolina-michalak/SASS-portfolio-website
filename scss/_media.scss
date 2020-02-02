@@ -17,4 +17,15 @@
             padding: 1rem;
         }
     }
+
+    #header {
+        &-home {
+            height: 10rem;
+            border-bottom: 3px solid $main-color;
+
+            .header-content {
+                display: none;
+            }
+        }
+    }
 }
