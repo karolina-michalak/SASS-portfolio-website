@@ -38,6 +38,7 @@
     #home-b .stats,
     #home-c .process,
     #about-d .testimonials,
+    #contact-b .contact-info,
     .items {
         grid-template-columns: 1fr;
     }
@@ -88,6 +89,26 @@
                     'email'
                     'phone'
                     'message';
+            }
+        }
+
+        &-b {
+            div {
+                margin-bottom: 1rem;
+                padding-bottom: 1rem;
+                border-bottom: 1px #555 solid;
+
+                &:last-child {
+                    border: none;
+                    margin-bottom: 0;
+                    padding-bottom: 0;
+                }
+            }
+        }
+
+        &-c {
+            h1 {
+                font-size: 2rem;
             }
         }
     }
