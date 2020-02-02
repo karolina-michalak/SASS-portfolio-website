@@ -13,7 +13,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #ffaa3a; }
+  background-color: #ec9512; }
 
 .btn-light {
   color: #333;
@@ -26,11 +26,11 @@
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background: #ffaa3a; }
+  background: #ec9512; }
 
 .bg-main {
-  background: #ffaa3a;
-  color: #000; }
+  background: #ec9512;
+  color: #fff; }
 
 .bg-dark {
   background: #333;
@@ -86,7 +86,7 @@ input[class^='btn-']:hover {
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background: #ffaa3a;
+  background: #ec9512;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -97,7 +97,7 @@ input[class^='btn-']:hover {
 
 .item {
   position: relative;
-  background: #ffaa3a;
+  background: #ec9512;
   overflow: hidden; }
   .item::after {
     content: '';
@@ -209,7 +209,7 @@ img {
     #main-nav a:hover {
       border-color: #ccc; }
     #main-nav a.current {
-      border-color: #ffaa3a; }
+      border-color: #ec9512; }
 
 #header-home {
   background: url("../img/photo1.jpeg") no-repeat center right/cover;
@@ -225,7 +225,7 @@ img {
 #header-inner {
   background: url("../img/photo1.jpeg") no-repeat 20% 30%/cover;
   height: 5.5rem;
-  border-bottom: 3px solid #ffaa3a; }
+  border-bottom: 3px solid #ec9512; }
 
 #home-a .specials {
   margin-top: 3rem;
@@ -233,7 +233,7 @@ img {
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr); }
   #home-a .specials .fas {
-    color: #ffaa3a;
+    color: #ec9512;
     padding-bottom: 0.4rem; }
 
 #home-b .stats {
@@ -263,8 +263,8 @@ img {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #ffaa3a;
-    color: #000;
+    background: #ec9512;
+    color: #fff;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -283,7 +283,7 @@ img {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #ffaa3a;
+      background: #ec9512;
       width: 90px;
       height: 90px;
       line-height: 90px; }
@@ -301,7 +301,7 @@ img {
 
 #about-a .bio {
   grid-area: bio;
-  border-left: 3px solid #ffaa3a;
+  border-left: 3px solid #ec9512;
   padding: 0.8rem; }
 
 #about-a .award-1 {
@@ -316,7 +316,7 @@ img {
 #about-a .award-1 .fas,
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
-  color: #ffaa3a;
+  color: #ec9512;
   margin: 1rem; }
 
 #about-b .progress {
@@ -329,7 +329,7 @@ img {
     height: 100%;
     color: white;
     text-align: center;
-    background: #ffaa3a; }
+    background: #ec9512; }
 
 #about-c .about-logos {
   display: grid;
@@ -408,4 +408,17 @@ img {
       text-align: center;
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
-        background: #ffaa3a; }
+        background: #ec9512; }
+
+@media (max-width: 800px) {
+  #header-home {
+    height: 30rem; }
+    #header-home .header-content {
+      padding-top: 5rem; } }
+
+@media (max-width: 500px) {
+  #main-nav {
+    flex-direction: column;
+    align-items: center; }
+    #main-nav li {
+      padding: 1rem; } }
